@@ -1,0 +1,174 @@
+[0.027s] Invoking command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros -DCMAKE_INSTALL_PREFIX=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.097s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.143s] -- Detecting C compile features
+[0.143s] -- Detecting C compile features - done
+[0.145s] -- Detecting CXX compiler ABI info
+[0.191s] -- Detecting CXX compiler ABI info - done
+[0.195s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.196s] -- Detecting CXX compile features
+[0.196s] -- Detecting CXX compile features - done
+[0.197s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.304s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.365s] -- Checking for module 'eigen3'
+[0.371s] --   Found eigen3, version 3.3.7
+[0.385s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.385s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.398s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.407s] -- Checking for module 'flann'
+[0.413s] --   Found flann, version 1.9.1
+[0.439s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.439s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.463s] -- Looking for pthread.h
+[0.504s] -- Looking for pthread.h - found
+[0.504s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.547s] -- Found Threads: TRUE  
+[0.549s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.553s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.636s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.636s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.637s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.643s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.654s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.661s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.707s] -- Found X11: /usr/include   
+[0.707s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.751s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.751s] -- Looking for gethostbyname
+[0.790s] -- Looking for gethostbyname - found
+[0.790s] -- Looking for connect
+[0.830s] -- Looking for connect - found
+[0.830s] -- Looking for remove
+[0.870s] -- Looking for remove - found
+[0.870s] -- Looking for shmat
+[0.909s] -- Looking for shmat - found
+[0.909s] -- Looking for IceConnectionNumber in ICE
+[0.950s] -- Looking for IceConnectionNumber in ICE - found
+[0.993s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[0.994s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[0.995s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[0.996s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.004s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.008s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.010s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.014s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.057s] -- Checking for module 'libusb-1.0'
+[1.064s] --   Found libusb-1.0, version 1.0.25
+[1.081s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.082s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.082s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.110s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.110s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.110s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.209s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.213s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.216s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.310s] -- Found Qhull version 8.0.2
+[1.405s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.497s] -- looking for PCL_COMMON
+[1.498s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.498s] -- looking for PCL_KDTREE
+[1.498s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.498s] -- looking for PCL_OCTREE
+[1.499s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.499s] -- looking for PCL_SEARCH
+[1.499s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.500s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.500s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.500s] -- looking for PCL_FILTERS
+[1.501s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.501s] -- looking for PCL_2D
+[1.501s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.501s] -- looking for PCL_GEOMETRY
+[1.501s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.501s] -- looking for PCL_IO
+[1.502s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.502s] -- looking for PCL_FEATURES
+[1.502s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.503s] -- looking for PCL_ML
+[1.503s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.503s] -- looking for PCL_SEGMENTATION
+[1.504s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.504s] -- looking for PCL_VISUALIZATION
+[1.504s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.504s] -- looking for PCL_SURFACE
+[1.505s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.505s] -- looking for PCL_REGISTRATION
+[1.506s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.506s] -- looking for PCL_KEYPOINTS
+[1.506s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.506s] -- looking for PCL_TRACKING
+[1.507s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.507s] -- looking for PCL_RECOGNITION
+[1.507s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.508s] -- looking for PCL_STEREO
+[1.508s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.508s] -- looking for PCL_APPS
+[1.509s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.509s] -- looking for PCL_IN_HAND_SCANNER
+[1.509s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[1.509s] -- looking for PCL_MODELER
+[1.510s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[1.510s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.510s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[1.510s] -- looking for PCL_OUTOFCORE
+[1.510s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.510s] -- looking for PCL_PEOPLE
+[1.511s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.511s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[1.581s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.584s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.589s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.656s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.658s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.719s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.736s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.767s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.374s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.374s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.374s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.585s] -- Configuring done
+[2.621s] -- Generating done
+[2.623s] -- Build files have been written to: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros
+[2.635s] Invoked command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros -DCMAKE_INSTALL_PREFIX=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros
+[2.636s] Invoking command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros -- -j20 -l20
+[2.668s] [ 25%] [32mBuilding CXX object CMakeFiles/ground_segmentation_node.dir/src/ground_segmentation_node.cc.o[0m
+[2.668s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o[0m
+[8.329s] [ 75%] [32m[1mLinking CXX executable ground_segmentation_test_node[0m
+[8.707s] [ 75%] Built target ground_segmentation_test_node
+[13.975s] [100%] [32m[1mLinking CXX executable ground_segmentation_node[0m
+[14.367s] [100%] Built target ground_segmentation_node
+[14.373s] Invoked command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros -- -j20 -l20
+[14.389s] Invoking command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros
+[14.394s] -- Install configuration: ""
+[14.394s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_node
+[14.394s] -- Set runtime path of "/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_node" to ""
+[14.394s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_test_node
+[14.395s] -- Set runtime path of "/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_test_node" to ""
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/test.launch.py
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/segmentation.launch.py
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/segmentation_params.yaml
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation_ros
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation_ros
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/ament_prefix_path.sh
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/ament_prefix_path.dsv
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/path.sh
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/path.dsv
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.bash
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.sh
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.zsh
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.dsv
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.dsv
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/packages/linefit_ground_segmentation_ros
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/linefit_ground_segmentation_rosConfig.cmake
+[14.395s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/linefit_ground_segmentation_rosConfig-version.cmake
+[14.396s] -- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.xml
+[14.396s] Invoked command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros

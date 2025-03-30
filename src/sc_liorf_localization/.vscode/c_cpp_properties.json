@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/feihu/shaobing/feihu_2/install/sc_liorf_localization/include/**",
+        "/home/feihu/shaobing/feihu_2/install/rm_bringup/include/**",
+        "/home/feihu/shaobing/feihu_2/install/pointcloud_to_laserscan/include/**",
+        "/home/feihu/shaobing/feihu_2/install/livox_ros_driver2/include/**",
+        "/home/feihu/shaobing/feihu_2/install/linefit_ground_segmentation/include/**",
+        "/home/feihu/rtab/install/rtabmap_slam/include/**",
+        "/home/feihu/rtab/install/rtabmap_odom/include/**",
+        "/home/feihu/rtab/install/rtabmap_util/include/**",
+        "/home/feihu/rtab/install/rtabmap_sync/include/**",
+        "/home/feihu/rtab/install/rtabmap_rviz_plugins/include/**",
+        "/home/feihu/rtab/install/rtabmap_conversions/include/**",
+        "/home/feihu/rtab/install/rtabmap_msgs/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rmoss_cam/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rmoss_util/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rmoss_projectile_motion/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rm_base/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rmoss_base/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rmoss_interfaces/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rm_interfaces/include/**",
+        "/home/feihu/projects/fish/install/interfaces/include/**",
+        "/home/feihu/ws_livox/install/fast_lio/include/**",
+        "/home/feihu/ws_livox/install/livox_ros_driver2/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/feihu/shaobing/feihu_2/src/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/**",
+        "/home/feihu/shaobing/feihu_2/src/pointcloud_to_laserscan/include/**",
+        "/home/feihu/shaobing/feihu_2/src/rm_bringup/include/**",
+        "/home/feihu/shaobing/feihu_2/src/sc_liorf_localization/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

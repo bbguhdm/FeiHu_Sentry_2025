@@ -1,0 +1,212 @@
+[0.587s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.587s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9bb0b6f0d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9bb0fd3e50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9bb0fd3e50>>)
+[0.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.622s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation) by extension 'ros'
+[0.632s] DEBUG:colcon.colcon_core.package_identification:Package 'linefit_ground_segmentation' with type 'ros.ament_cmake' and name 'linefit_ground_segmentation'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation_ros) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation_ros) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation_ros) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation_ros) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation_ros) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation_ros) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation_ros) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(linefit_ground_segmentation_ros) by extension 'ros'
+[0.633s] DEBUG:colcon.colcon_core.package_identification:Package 'linefit_ground_segmentation_ros' with type 'ros.ament_cmake' and name 'linefit_ground_segmentation_ros'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.706s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 388 installed packages in /opt/ros/humble
+[0.707s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_target' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_clean_first' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_force_configure' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'ament_cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.777s] DEBUG:colcon.colcon_core.verb:Building package 'linefit_ground_segmentation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation', 'merge_install': False, 'path': '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/linefit_ground_segmentation', 'symlink_install': False, 'test_result_base': None}
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_target' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.785s] DEBUG:colcon.colcon_core.verb:Building package 'linefit_ground_segmentation_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros', 'merge_install': False, 'path': '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros', 'symlink_install': False, 'test_result_base': None}
+[0.792s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.800s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.800s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/linefit_ground_segmentation' with build type 'ament_cmake'
+[0.800s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/linefit_ground_segmentation'
+[0.822s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.823s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation -- -j20 -l20
+[1.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation -- -j20 -l20
+[1.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation
+[1.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefit_ground_segmentation)
+[1.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation' for CMake module files
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation' for CMake config files
+[1.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefit_ground_segmentation', 'cmake_prefix_path')
+[1.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/cmake_prefix_path.ps1'
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/cmake_prefix_path.dsv'
+[1.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/cmake_prefix_path.sh'
+[1.401s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib'
+[1.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefit_ground_segmentation', 'ld_library_path_lib')
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/ld_library_path_lib.ps1'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/ld_library_path_lib.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/ld_library_path_lib.sh'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/bin'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib/pkgconfig/linefit_ground_segmentation.pc'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib/python3.10/site-packages'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/bin'
+[1.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.ps1'
+[1.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.dsv'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.sh'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.bash'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.zsh'
+[1.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/colcon-core/packages/linefit_ground_segmentation)
+[1.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefit_ground_segmentation)
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation' for CMake module files
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation' for CMake config files
+[1.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefit_ground_segmentation', 'cmake_prefix_path')
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/cmake_prefix_path.ps1'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/cmake_prefix_path.dsv'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/cmake_prefix_path.sh'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib'
+[1.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefit_ground_segmentation', 'ld_library_path_lib')
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/ld_library_path_lib.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/ld_library_path_lib.dsv'
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/ld_library_path_lib.sh'
+[1.476s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/bin'
+[1.476s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib/pkgconfig/linefit_ground_segmentation.pc'
+[1.476s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib/python3.10/site-packages'
+[1.476s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/bin'
+[1.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.ps1'
+[1.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.dsv'
+[1.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.sh'
+[1.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.bash'
+[1.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.zsh'
+[1.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/colcon-core/packages/linefit_ground_segmentation)
+[1.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros' with build type 'ament_cmake'
+[1.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros'
+[1.492s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros -- -j20 -l20
+[1.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros -- -j20 -l20
+[1.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros
+[1.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefit_ground_segmentation_ros)
+[1.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros' for CMake module files
+[1.661s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros' for CMake config files
+[1.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefit_ground_segmentation_ros', 'cmake_prefix_path')
+[1.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/hook/cmake_prefix_path.ps1'
+[1.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/hook/cmake_prefix_path.dsv'
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/hook/cmake_prefix_path.sh'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/bin'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib/pkgconfig/linefit_ground_segmentation_ros.pc'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib/python3.10/site-packages'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/bin'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.ps1'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.dsv'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.sh'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.bash'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.zsh'
+[1.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/colcon-core/packages/linefit_ground_segmentation_ros)
+[1.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefit_ground_segmentation_ros)
+[1.717s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros' for CMake module files
+[1.717s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros' for CMake config files
+[1.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefit_ground_segmentation_ros', 'cmake_prefix_path')
+[1.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/hook/cmake_prefix_path.ps1'
+[1.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/hook/cmake_prefix_path.dsv'
+[1.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/hook/cmake_prefix_path.sh'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/bin'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib/pkgconfig/linefit_ground_segmentation_ros.pc'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib/python3.10/site-packages'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/bin'
+[1.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.ps1'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.dsv'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.sh'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.bash'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.zsh'
+[1.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/colcon-core/packages/linefit_ground_segmentation_ros)
+[1.736s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.736s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.736s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.736s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.758s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.759s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.759s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.774s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.783s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/local_setup.ps1'
+[1.785s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/_local_setup_util_ps1.py'
+[1.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/setup.ps1'
+[1.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/local_setup.sh'
+[1.798s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/_local_setup_util_sh.py'
+[1.798s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/setup.sh'
+[1.808s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/local_setup.bash'
+[1.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/setup.bash'
+[1.819s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/local_setup.zsh'
+[1.822s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/setup.zsh'

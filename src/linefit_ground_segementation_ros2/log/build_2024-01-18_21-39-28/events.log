@@ -1,0 +1,540 @@
+[0.000000] (-) TimerEvent: {}
+[0.000190] (linefit_ground_segmentation) JobQueued: {'identifier': 'linefit_ground_segmentation', 'dependencies': OrderedDict()}
+[0.000221] (linefit_ground_segmentation_ros) JobQueued: {'identifier': 'linefit_ground_segmentation_ros', 'dependencies': OrderedDict([('linefit_ground_segmentation', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation')])}
+[0.000499] (linefit_ground_segmentation) JobStarted: {'identifier': 'linefit_ground_segmentation'}
+[0.049832] (linefit_ground_segmentation) JobProgress: {'identifier': 'linefit_ground_segmentation', 'progress': 'cmake'}
+[0.050045] (linefit_ground_segmentation) Command: {'cmd': ['/usr/bin/cmake', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/linefit_ground_segmentation', '-DCMAKE_INSTALL_PREFIX=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation'], 'cwd': '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'feihu'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/feihu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1297'), ('SYSTEMD_EXEC_PID', '1471'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feihu'), ('JOURNAL_STREAM', '8:39629'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feihu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feihu6:@/tmp/.ICE-unix/1440,unix/feihu6:/tmp/.ICE-unix/1440'), ('INVOCATION_ID', '03a4c2e5dbdd457694f17537700c5fb6'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZYDZH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fbf672bbf6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099902] (-) TimerEvent: {}
+[0.182222] (linefit_ground_segmentation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199955] (-) TimerEvent: {}
+[0.244756] (linefit_ground_segmentation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.254469] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300058] (-) TimerEvent: {}
+[0.309281] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.317116] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.317414] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.317903] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.320253] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.385767] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.390768] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.390955] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.391279] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.393233] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.400119] (-) TimerEvent: {}
+[0.500376] (-) TimerEvent: {}
+[0.553727] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.600443] (-) TimerEvent: {}
+[0.700638] (-) TimerEvent: {}
+[0.731577] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.736554] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.749007] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.760872] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.775223] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800686] (-) TimerEvent: {}
+[0.826855] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.828865] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.893775] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.900756] (-) TimerEvent: {}
+[0.923952] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.954476] (linefit_ground_segmentation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.962228] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000865] (-) TimerEvent: {}
+[1.023687] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.023929] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.078598] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.079335] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.100922] (-) TimerEvent: {}
+[1.201168] (-) TimerEvent: {}
+[1.301486] (-) TimerEvent: {}
+[1.401829] (-) TimerEvent: {}
+[1.502139] (-) TimerEvent: {}
+[1.550242] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.551448] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[1.551564] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.602200] (-) TimerEvent: {}
+[1.702447] (-) TimerEvent: {}
+[1.802751] (-) TimerEvent: {}
+[1.850009] (linefit_ground_segmentation) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.857120] (linefit_ground_segmentation) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[1.874693] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.874824] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.902803] (-) TimerEvent: {}
+[1.902931] (linefit_ground_segmentation) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.910457] (linefit_ground_segmentation) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.941036] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.941218] (linefit_ground_segmentation) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.002888] (-) TimerEvent: {}
+[2.103143] (-) TimerEvent: {}
+[2.203430] (-) TimerEvent: {}
+[2.303753] (-) TimerEvent: {}
+[2.404051] (-) TimerEvent: {}
+[2.504354] (-) TimerEvent: {}
+[2.604596] (-) TimerEvent: {}
+[2.673222] (linefit_ground_segmentation) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.680813] (linefit_ground_segmentation) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.704692] (-) TimerEvent: {}
+[2.706626] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.707811] (linefit_ground_segmentation) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.749083] (linefit_ground_segmentation) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.804804] (-) TimerEvent: {}
+[2.856972] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.860925] (linefit_ground_segmentation) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.864775] (linefit_ground_segmentation) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.904857] (-) TimerEvent: {}
+[2.962056] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.004931] (-) TimerEvent: {}
+[3.059411] (linefit_ground_segmentation) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.105011] (-) TimerEvent: {}
+[3.153642] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.154168] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.154732] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.155312] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.155880] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.156500] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.156763] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.157001] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.157577] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.158197] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.158860] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.159464] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.160185] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.160826] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.161460] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.162122] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.162784] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.163419] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.164102] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.164682] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.165211] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[3.165438] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[3.165705] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[3.166324] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.166958] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.205073] (-) TimerEvent: {}
+[3.242464] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.280587] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Generating done\n'}
+[3.282356] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Build files have been written to: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation\n'}
+[3.292273] (linefit_ground_segmentation) CommandEnded: {'returncode': 0}
+[3.292911] (linefit_ground_segmentation) JobProgress: {'identifier': 'linefit_ground_segmentation', 'progress': 'build'}
+[3.293583] (linefit_ground_segmentation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation', '--', '-j20', '-l20'], 'cwd': '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'feihu'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/feihu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1297'), ('SYSTEMD_EXEC_PID', '1471'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feihu'), ('JOURNAL_STREAM', '8:39629'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feihu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feihu6:@/tmp/.ICE-unix/1440,unix/feihu6:/tmp/.ICE-unix/1440'), ('INVOCATION_ID', '03a4c2e5dbdd457694f17537700c5fb6'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZYDZH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fbf672bbf6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.305152] (-) TimerEvent: {}
+[3.338049] (linefit_ground_segmentation) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o\x1b[0m\n'}
+[3.338328] (linefit_ground_segmentation) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o\x1b[0m\n'}
+[3.338463] (linefit_ground_segmentation) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o\x1b[0m\n'}
+[3.338582] (linefit_ground_segmentation) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o\x1b[0m\n'}
+[3.405268] (-) TimerEvent: {}
+[3.505563] (-) TimerEvent: {}
+[3.605852] (-) TimerEvent: {}
+[3.706146] (-) TimerEvent: {}
+[3.806420] (-) TimerEvent: {}
+[3.906694] (-) TimerEvent: {}
+[4.006972] (-) TimerEvent: {}
+[4.107249] (-) TimerEvent: {}
+[4.207538] (-) TimerEvent: {}
+[4.307814] (-) TimerEvent: {}
+[4.408099] (-) TimerEvent: {}
+[4.508416] (-) TimerEvent: {}
+[4.608698] (-) TimerEvent: {}
+[4.708967] (-) TimerEvent: {}
+[4.809232] (-) TimerEvent: {}
+[4.909497] (-) TimerEvent: {}
+[5.009758] (-) TimerEvent: {}
+[5.110022] (-) TimerEvent: {}
+[5.210297] (-) TimerEvent: {}
+[5.310580] (-) TimerEvent: {}
+[5.410865] (-) TimerEvent: {}
+[5.511138] (-) TimerEvent: {}
+[5.611399] (-) TimerEvent: {}
+[5.711648] (-) TimerEvent: {}
+[5.811902] (-) TimerEvent: {}
+[5.912176] (-) TimerEvent: {}
+[6.012433] (-) TimerEvent: {}
+[6.112710] (-) TimerEvent: {}
+[6.212974] (-) TimerEvent: {}
+[6.313218] (-) TimerEvent: {}
+[6.413474] (-) TimerEvent: {}
+[6.513736] (-) TimerEvent: {}
+[6.614002] (-) TimerEvent: {}
+[6.714286] (-) TimerEvent: {}
+[6.814590] (-) TimerEvent: {}
+[6.914879] (-) TimerEvent: {}
+[7.015162] (-) TimerEvent: {}
+[7.115448] (-) TimerEvent: {}
+[7.215726] (-) TimerEvent: {}
+[7.315975] (-) TimerEvent: {}
+[7.416225] (-) TimerEvent: {}
+[7.516478] (-) TimerEvent: {}
+[7.616739] (-) TimerEvent: {}
+[7.691366] (linefit_ground_segmentation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblinefit_ground_segmentation.so\x1b[0m\n'}
+[7.716800] (-) TimerEvent: {}
+[7.817017] (-) TimerEvent: {}
+[7.917292] (-) TimerEvent: {}
+[8.017571] (-) TimerEvent: {}
+[8.117898] (-) TimerEvent: {}
+[8.204406] (linefit_ground_segmentation) StdoutLine: {'line': b'[100%] Built target linefit_ground_segmentation\n'}
+[8.210828] (linefit_ground_segmentation) CommandEnded: {'returncode': 0}
+[8.217961] (-) TimerEvent: {}
+[8.239311] (linefit_ground_segmentation) JobProgress: {'identifier': 'linefit_ground_segmentation', 'progress': 'install'}
+[8.249988] (linefit_ground_segmentation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation'], 'cwd': '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'feihu'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/feihu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1297'), ('SYSTEMD_EXEC_PID', '1471'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feihu'), ('JOURNAL_STREAM', '8:39629'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feihu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feihu6:@/tmp/.ICE-unix/1440,unix/feihu6:/tmp/.ICE-unix/1440'), ('INVOCATION_ID', '03a4c2e5dbdd457694f17537700c5fb6'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZYDZH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fbf672bbf6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.259601] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.259824] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/include\n'}
+[8.259988] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/include/ground_segmentation\n'}
+[8.260143] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/include/ground_segmentation/segment.h\n'}
+[8.260360] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h\n'}
+[8.260486] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h\n'}
+[8.260557] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h\n'}
+[8.260623] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/include/ground_segmentation/bin.h\n'}
+[8.260684] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.sh\n'}
+[8.260763] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.dsv\n'}
+[8.260881] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib/liblinefit_ground_segmentation.so\n'}
+[8.261244] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Set runtime path of "/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib/liblinefit_ground_segmentation.so" to ""\n'}
+[8.261414] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation\n'}
+[8.261523] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation\n'}
+[8.261617] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.sh\n'}
+[8.261698] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.dsv\n'}
+[8.261785] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.sh\n'}
+[8.261863] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.dsv\n'}
+[8.261960] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.bash\n'}
+[8.262040] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.sh\n'}
+[8.262131] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.zsh\n'}
+[8.262215] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.dsv\n'}
+[8.262306] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.dsv\n'}
+[8.262436] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/ament_index/resource_index/packages/linefit_ground_segmentation\n'}
+[8.262599] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.262707] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.262815] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.262904] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig.cmake\n'}
+[8.262977] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig-version.cmake\n'}
+[8.263061] (linefit_ground_segmentation) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.xml\n'}
+[8.264360] (linefit_ground_segmentation) CommandEnded: {'returncode': 0}
+[8.318110] (-) TimerEvent: {}
+[8.393500] (linefit_ground_segmentation) JobEnded: {'identifier': 'linefit_ground_segmentation', 'rc': 0}
+[8.393957] (linefit_ground_segmentation_ros) JobStarted: {'identifier': 'linefit_ground_segmentation_ros'}
+[8.418176] (-) TimerEvent: {}
+[8.420118] (linefit_ground_segmentation_ros) JobProgress: {'identifier': 'linefit_ground_segmentation_ros', 'progress': 'cmake'}
+[8.420390] (linefit_ground_segmentation_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros', '-DCMAKE_INSTALL_PREFIX=/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros'], 'cwd': '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'feihu'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/feihu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1297'), ('SYSTEMD_EXEC_PID', '1471'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feihu'), ('JOURNAL_STREAM', '8:39629'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feihu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feihu6:@/tmp/.ICE-unix/1440,unix/feihu6:/tmp/.ICE-unix/1440'), ('INVOCATION_ID', '03a4c2e5dbdd457694f17537700c5fb6'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZYDZH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fbf672bbf6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble')]), 'shell': False}
+[8.464664] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[8.503975] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[8.508550] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.518256] (-) TimerEvent: {}
+[8.551123] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.558170] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.558377] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.558662] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.560642] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.618322] (-) TimerEvent: {}
+[8.620315] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.626687] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.626902] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.627282] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.629026] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[8.718411] (-) TimerEvent: {}
+[8.760095] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[8.818495] (-) TimerEvent: {}
+[8.820882] (linefit_ground_segmentation_ros) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[8.827534] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[8.844298] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[8.844428] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[8.857581] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[8.867542] (linefit_ground_segmentation_ros) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[8.874024] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[8.900484] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[8.900594] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[8.918553] (-) TimerEvent: {}
+[8.924156] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.968941] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.969162] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.018671] (-) TimerEvent: {}
+[9.027682] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.028540] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.029787] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[9.033565] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[9.118781] (-) TimerEvent: {}
+[9.133941] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[9.134141] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[9.135544] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[9.141870] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[9.154350] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[9.161317] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[9.208102] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[9.208282] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[9.218835] (-) TimerEvent: {}
+[9.262890] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[9.263090] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[9.318960] (-) TimerEvent: {}
+[9.325645] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[9.325811] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for connect\n'}
+[9.367544] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[9.367737] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for remove\n'}
+[9.417355] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[9.417479] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[9.419008] (-) TimerEvent: {}
+[9.471538] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[9.471723] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[9.519130] (-) TimerEvent: {}
+[9.530862] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[9.576217] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[9.577316] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[9.578760] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[9.579770] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[9.588684] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[9.593808] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[9.596872] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[9.600490] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[9.619185] (-) TimerEvent: {}
+[9.644750] (linefit_ground_segmentation_ros) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[9.652061] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[9.671950] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[9.672770] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[9.672873] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[9.704772] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[9.704991] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[9.705072] (linefit_ground_segmentation_ros) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[9.719246] (-) TimerEvent: {}
+[9.806005] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[9.809733] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[9.813503] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[9.819303] (-) TimerEvent: {}
+[9.907004] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[9.919370] (-) TimerEvent: {}
+[10.003549] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[10.019433] (-) TimerEvent: {}
+[10.097220] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[10.097771] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[10.097881] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[10.098355] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[10.098445] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[10.098922] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[10.099010] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[10.099447] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[10.099552] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[10.100022] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[10.100119] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[10.100590] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[10.100713] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[10.100850] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[10.100950] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[10.101085] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[10.101148] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[10.101610] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[10.101757] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[10.102260] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[10.102395] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[10.102853] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[10.102946] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[10.103438] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[10.103608] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[10.104108] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[10.104281] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[10.104763] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[10.104901] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[10.105416] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[10.105569] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[10.106049] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[10.106192] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[10.106689] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[10.106810] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[10.107264] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[10.107454] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[10.107951] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[10.108053] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[10.108528] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[10.108905] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[10.109069] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[10.109139] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[10.109298] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[10.109367] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[10.109536] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[10.109603] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[10.110100] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[10.110238] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[10.110750] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[10.111268] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[10.119492] (-) TimerEvent: {}
+[10.182418] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.185506] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.191047] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.200016] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.212651] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.219549] (-) TimerEvent: {}
+[10.258954] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.260825] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.319646] (-) TimerEvent: {}
+[10.323382] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.339846] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.371949] (linefit_ground_segmentation_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.419714] (-) TimerEvent: {}
+[10.519941] (-) TimerEvent: {}
+[10.620230] (-) TimerEvent: {}
+[10.720504] (-) TimerEvent: {}
+[10.820785] (-) TimerEvent: {}
+[10.921046] (-) TimerEvent: {}
+[10.983555] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[10.984455] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[10.984540] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[11.021104] (-) TimerEvent: {}
+[11.121324] (-) TimerEvent: {}
+[11.195449] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.221376] (-) TimerEvent: {}
+[11.234491] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[11.236282] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros\n'}
+[11.247125] (linefit_ground_segmentation_ros) CommandEnded: {'returncode': 0}
+[11.247834] (linefit_ground_segmentation_ros) JobProgress: {'identifier': 'linefit_ground_segmentation_ros', 'progress': 'build'}
+[11.248272] (linefit_ground_segmentation_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros', '--', '-j20', '-l20'], 'cwd': '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'feihu'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/feihu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1297'), ('SYSTEMD_EXEC_PID', '1471'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feihu'), ('JOURNAL_STREAM', '8:39629'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feihu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feihu6:@/tmp/.ICE-unix/1440,unix/feihu6:/tmp/.ICE-unix/1440'), ('INVOCATION_ID', '03a4c2e5dbdd457694f17537700c5fb6'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZYDZH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fbf672bbf6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble')]), 'shell': False}
+[11.290735] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ground_segmentation_node.dir/src/ground_segmentation_node.cc.o\x1b[0m\n'}
+[11.291274] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o\x1b[0m\n'}
+[11.321471] (-) TimerEvent: {}
+[11.421693] (-) TimerEvent: {}
+[11.521921] (-) TimerEvent: {}
+[11.622179] (-) TimerEvent: {}
+[11.722476] (-) TimerEvent: {}
+[11.822711] (-) TimerEvent: {}
+[11.922943] (-) TimerEvent: {}
+[12.023174] (-) TimerEvent: {}
+[12.123397] (-) TimerEvent: {}
+[12.223619] (-) TimerEvent: {}
+[12.323847] (-) TimerEvent: {}
+[12.424072] (-) TimerEvent: {}
+[12.524303] (-) TimerEvent: {}
+[12.624548] (-) TimerEvent: {}
+[12.724784] (-) TimerEvent: {}
+[12.825015] (-) TimerEvent: {}
+[12.925249] (-) TimerEvent: {}
+[13.025478] (-) TimerEvent: {}
+[13.125709] (-) TimerEvent: {}
+[13.225940] (-) TimerEvent: {}
+[13.326167] (-) TimerEvent: {}
+[13.426396] (-) TimerEvent: {}
+[13.526633] (-) TimerEvent: {}
+[13.626872] (-) TimerEvent: {}
+[13.727113] (-) TimerEvent: {}
+[13.827352] (-) TimerEvent: {}
+[13.927589] (-) TimerEvent: {}
+[14.027821] (-) TimerEvent: {}
+[14.128060] (-) TimerEvent: {}
+[14.228300] (-) TimerEvent: {}
+[14.328534] (-) TimerEvent: {}
+[14.428772] (-) TimerEvent: {}
+[14.529008] (-) TimerEvent: {}
+[14.629244] (-) TimerEvent: {}
+[14.729484] (-) TimerEvent: {}
+[14.829718] (-) TimerEvent: {}
+[14.929951] (-) TimerEvent: {}
+[15.030181] (-) TimerEvent: {}
+[15.130411] (-) TimerEvent: {}
+[15.230647] (-) TimerEvent: {}
+[15.330880] (-) TimerEvent: {}
+[15.431104] (-) TimerEvent: {}
+[15.531338] (-) TimerEvent: {}
+[15.631563] (-) TimerEvent: {}
+[15.731805] (-) TimerEvent: {}
+[15.832040] (-) TimerEvent: {}
+[15.932290] (-) TimerEvent: {}
+[16.032524] (-) TimerEvent: {}
+[16.132754] (-) TimerEvent: {}
+[16.232994] (-) TimerEvent: {}
+[16.333230] (-) TimerEvent: {}
+[16.433462] (-) TimerEvent: {}
+[16.533702] (-) TimerEvent: {}
+[16.633934] (-) TimerEvent: {}
+[16.734153] (-) TimerEvent: {}
+[16.834365] (-) TimerEvent: {}
+[16.934587] (-) TimerEvent: {}
+[17.034802] (-) TimerEvent: {}
+[17.121593] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ground_segmentation_test_node\x1b[0m\n'}
+[17.134888] (-) TimerEvent: {}
+[17.235102] (-) TimerEvent: {}
+[17.335336] (-) TimerEvent: {}
+[17.435569] (-) TimerEvent: {}
+[17.506149] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'[ 75%] Built target ground_segmentation_test_node\n'}
+[17.535659] (-) TimerEvent: {}
+[17.635888] (-) TimerEvent: {}
+[17.736121] (-) TimerEvent: {}
+[17.836361] (-) TimerEvent: {}
+[17.936597] (-) TimerEvent: {}
+[18.036818] (-) TimerEvent: {}
+[18.137053] (-) TimerEvent: {}
+[18.237289] (-) TimerEvent: {}
+[18.337513] (-) TimerEvent: {}
+[18.437751] (-) TimerEvent: {}
+[18.538005] (-) TimerEvent: {}
+[18.638238] (-) TimerEvent: {}
+[18.738470] (-) TimerEvent: {}
+[18.838710] (-) TimerEvent: {}
+[18.938939] (-) TimerEvent: {}
+[19.039176] (-) TimerEvent: {}
+[19.139408] (-) TimerEvent: {}
+[19.239643] (-) TimerEvent: {}
+[19.339870] (-) TimerEvent: {}
+[19.440098] (-) TimerEvent: {}
+[19.540342] (-) TimerEvent: {}
+[19.640564] (-) TimerEvent: {}
+[19.740784] (-) TimerEvent: {}
+[19.841027] (-) TimerEvent: {}
+[19.941249] (-) TimerEvent: {}
+[20.041470] (-) TimerEvent: {}
+[20.141688] (-) TimerEvent: {}
+[20.241912] (-) TimerEvent: {}
+[20.342129] (-) TimerEvent: {}
+[20.442354] (-) TimerEvent: {}
+[20.542587] (-) TimerEvent: {}
+[20.642797] (-) TimerEvent: {}
+[20.743015] (-) TimerEvent: {}
+[20.843242] (-) TimerEvent: {}
+[20.943462] (-) TimerEvent: {}
+[21.043688] (-) TimerEvent: {}
+[21.143911] (-) TimerEvent: {}
+[21.244127] (-) TimerEvent: {}
+[21.344366] (-) TimerEvent: {}
+[21.444603] (-) TimerEvent: {}
+[21.544824] (-) TimerEvent: {}
+[21.645037] (-) TimerEvent: {}
+[21.745258] (-) TimerEvent: {}
+[21.845498] (-) TimerEvent: {}
+[21.945706] (-) TimerEvent: {}
+[22.045920] (-) TimerEvent: {}
+[22.146092] (-) TimerEvent: {}
+[22.246300] (-) TimerEvent: {}
+[22.346606] (-) TimerEvent: {}
+[22.446886] (-) TimerEvent: {}
+[22.547107] (-) TimerEvent: {}
+[22.647325] (-) TimerEvent: {}
+[22.747555] (-) TimerEvent: {}
+[22.749632] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ground_segmentation_node\x1b[0m\n'}
+[22.847647] (-) TimerEvent: {}
+[22.947882] (-) TimerEvent: {}
+[23.048113] (-) TimerEvent: {}
+[23.136796] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'[100%] Built target ground_segmentation_node\n'}
+[23.142926] (linefit_ground_segmentation_ros) CommandEnded: {'returncode': 0}
+[23.148166] (-) TimerEvent: {}
+[23.167467] (linefit_ground_segmentation_ros) JobProgress: {'identifier': 'linefit_ground_segmentation_ros', 'progress': 'install'}
+[23.168316] (linefit_ground_segmentation_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros'], 'cwd': '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'feihu'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/feihu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1297'), ('SYSTEMD_EXEC_PID', '1471'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feihu'), ('JOURNAL_STREAM', '8:39629'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feihu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feihu6:@/tmp/.ICE-unix/1440,unix/feihu6:/tmp/.ICE-unix/1440'), ('INVOCATION_ID', '03a4c2e5dbdd457694f17537700c5fb6'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZYDZH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fbf672bbf6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/build/linefit_ground_segmentation_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation:/opt/ros/humble')]), 'shell': False}
+[23.179011] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.179273] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_node\n'}
+[23.180684] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_node" to ""\n'}
+[23.180826] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_test_node\n'}
+[23.181225] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_test_node" to ""\n'}
+[23.181337] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch\n'}
+[23.181455] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/test.launch.py\n'}
+[23.181596] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/segmentation.launch.py\n'}
+[23.181678] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/segmentation_params.yaml\n'}
+[23.181912] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation_ros\n'}
+[23.182096] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation_ros\n'}
+[23.182258] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/ament_prefix_path.sh\n'}
+[23.182386] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/ament_prefix_path.dsv\n'}
+[23.182510] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/path.sh\n'}
+[23.182628] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/path.dsv\n'}
+[23.182769] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.bash\n'}
+[23.182893] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.sh\n'}
+[23.183018] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.zsh\n'}
+[23.183133] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.dsv\n'}
+[23.183254] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.dsv\n'}
+[23.183401] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/packages/linefit_ground_segmentation_ros\n'}
+[23.183548] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.183667] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/linefit_ground_segmentation_rosConfig.cmake\n'}
+[23.183786] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/linefit_ground_segmentation_rosConfig-version.cmake\n'}
+[23.183882] (linefit_ground_segmentation_ros) StdoutLine: {'line': b'-- Installing: /home/feihu/shaobing/feihu/src/robot_preparation/linefit_ground_segementation_ros2/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.xml\n'}
+[23.185924] (linefit_ground_segmentation_ros) CommandEnded: {'returncode': 0}
+[23.248291] (-) TimerEvent: {}
+[23.270054] (linefit_ground_segmentation_ros) JobEnded: {'identifier': 'linefit_ground_segmentation_ros', 'rc': 0}
+[23.270423] (-) EventReactorShutdown: {}

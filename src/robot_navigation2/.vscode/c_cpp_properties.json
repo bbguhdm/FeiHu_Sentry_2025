@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/feihu/shaobing/ros2_ws/install/rmoss_cam/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rmoss_util/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rmoss_projectile_motion/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rm_base/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rmoss_base/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rmoss_interfaces/include/**",
+        "/home/feihu/shaobing/ros2_ws/install/rm_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
