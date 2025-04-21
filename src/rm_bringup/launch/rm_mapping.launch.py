@@ -32,7 +32,7 @@ def generate_launch_description():
 
     lio_config_declare = DeclareLaunchArgument(
         'lio_config_params_file',
-        default_value='lio_sam_mid360_bbgu',
+        default_value='lio_sam_mid360_RM',
         description='FPath to the ROS2 parameters file to use.')
 
     bringup_cmd_group = GroupAction([

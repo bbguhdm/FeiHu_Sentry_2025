@@ -106,38 +106,38 @@ def generate_launch_description():
             arguments=['-d', rviz_config_file],
             output='screen'
         ),
-        # Node(
-        #     package='pointcloud_to_laserscan', executable='pointcloud_to_laserscan_node',
-        #     remappings=[('cloud_in',  ['/segmentation/obstacle']),
-        #                 ('scan',  ['/scan'])],
-        #     parameters=[{
-        #         'target_frame': 'livox_frame',
-        #         'transform_tolerance': 0.01,
-        #         'min_height': 0.0,
-        #         'max_height': 0.5,
-        #         'angle_min': -3.14159,  # -M_PI/2
-        #         'angle_max': 3.14159,  # M_PI/2
-        #         'angle_increment': 0.0063,  # M_PI/360.0
-        #         'scan_time': 0.2333,
-        #         'range_min': 0.18,
-        #         'range_max': 10.6,
-        #         'use_inf': True,
-        #         'inf_epsilon': 1.0
-        #     }],
-        #     name='pointcloud_to_laserscan'
-        # ),
-        # Node(
-        #     package='linefit_ground_segmentation_ros',
-        #     executable='ground_segmentation_node',
-        #     parameters=[segmentation_params_file],
-        #     output='screen'
-        # ),
-        # IncludeLaunchDescription(
-        #     PythonLaunchDescriptionSource(os.path.join(nav_launch_dir,'bring_launch.py')),
-        #     launch_arguments = {
-        #         'map': nav2_map_file,
-        #         'params_file': nav2_params_file_dir}.items()
-        # )
+        Node(
+            package='pointcloud_to_laserscan', executable='pointcloud_to_laserscan_node',
+            remappings=[('cloud_in',  ['/segmentation/obstacle']),
+                        ('scan',  ['/scan'])],
+            parameters=[{
+                'target_frame': 'livox_frame',
+                'transform_tolerance': 0.01,
+                'min_height': 0.0,
+                'max_height': 0.5,
+                'angle_min': -3.14159,  # -M_PI/2
+                'angle_max': 3.14159,  # M_PI/2
+                'angle_increment': 0.0063,  # M_PI/360.0
+                'scan_time': 0.2333,
+                'range_min': 0.18,
+                'range_max': 10.6,
+                'use_inf': True,
+                'inf_epsilon': 1.0
+            }],
+            name='pointcloud_to_laserscan'
+        ),
+        Node(
+            package='linefit_ground_segmentation_ros',
+            executable='ground_segmentation_node',
+            parameters=[segmentation_params_file],
+            output='screen'
+        ),
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(os.path.join(nav_launch_dir,'bring_launch.py')),
+            launch_arguments = {
+                'map': nav2_map_file,
+                'params_file': nav2_params_file_dir}.items()
+        )
     ])
 
     # Create the launch description and populate
