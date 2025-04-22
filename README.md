@@ -47,6 +47,36 @@ git clone https://github.com/bbguhdm/feihu.git`
 colcon build --symlink-install
 ```
 
+### 运行
+
+#### 建图：
+
+使用scan context:
+
+```
+./mapping.sh
+```
+
+不使用scan context:
+
+```
+./rm_mapping.sh
+```
+
+#### 导航：
+
+使用scan context:
+
+```
+./localization.sh
+```
+
+不使用scan context:
+
+```
+./rm_localization.sh
+```
+
 本项目参考：
 
 https://github.com/TixiaoShan/LIO-SAM.git
