@@ -1,7 +1,7 @@
 # FeiHu_Sentry_2025
 
 ### 项目介绍
-本项目是北部湾大学飞虎战队的哨兵导航包，开发过程中从深圳北理莫斯科大学北极熊战队开源的导航包[链接](http://gitee.com/SMBU-POLARBEAR/pb_rm_simulation)中得到了很多启发。
+本项目是北部湾大学飞虎战队2025年的哨兵导航包。
 
 ### 硬件设备
 1.  Mini Pc:13代 intel酷睿i9-13900H BQM6
