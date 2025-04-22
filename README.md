@@ -23,6 +23,7 @@ ndt_omp: https://github.com/koide3/ndt_omp.git
 ### 配置安装
 安装依赖项
 
+```
 sudo apt install cmake
 sudo apt install ros-humble-perception-pcl \
          ros-humble-pcl-msgs \
@@ -33,6 +34,7 @@ sudo add-apt-repository ppa:borglab/gtsam-release-4.1
 sudo apt install libgtsam-dev libgtsam-unstable-dev
 sudo apt-get install libgeographic-dev
 sudo apt install ros-humble-nav2-*
+```
 
 克隆仓库到本地：
 
