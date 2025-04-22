@@ -11,6 +11,42 @@
 ### 开发环境
 Ubuntu22.04 ROS2 Humble
 
+### 第三方依赖库
+livox-SDK2:https://github.com/Livox-SDK/Livox-SDK2.git
+
+livox_ros_driver2: https://github.com/Livox-SDK/livox_ros_driver2.git
+
+small_gicp: https://github.com/koide3/small_gicp.git
+
+ndt_omp: https://github.com/koide3/ndt_omp.git
+
+### 配置安装
+安装依赖项
+
+sudo apt install cmake
+sudo apt install ros-humble-perception-pcl \
+         ros-humble-pcl-msgs \
+         ros-humble-vision-opencv \
+         ros-humble-xacro
+sudo apt install libpcap-dev
+sudo add-apt-repository ppa:borglab/gtsam-release-4.1
+sudo apt install libgtsam-dev libgtsam-unstable-dev
+sudo apt-get install libgeographic-dev
+sudo apt install ros-humble-nav2-*
+
+克隆仓库到本地：
+
+```
+git clone https://github.com/bbguhdm/feihu.git`
+```
+
+编译
+
+```
+
+colcon build --symlink-install
+```
+
 本项目参考：
 
 https://github.com/TixiaoShan/LIO-SAM.git
