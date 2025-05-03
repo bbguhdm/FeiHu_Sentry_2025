@@ -1925,6 +1925,7 @@ public:
         {
             pcl::PointCloud<PointType>::Ptr cloudOut(new pcl::PointCloud<PointType>());
             PointTypePose thisPose6D = trans2PointTypePose(transformTobeMapped);
+            *cloudOut += *transformPointCloud(laserCloudCornerLastDS,  &thisPose6D);
             *cloudOut += *transformPointCloud(laserCloudSurfLastDS,    &thisPose6D);
             publishCloud(pubRecentKeyFrame, cloudOut, timeLaserInfoStamp, odometryFrame);
         }

@@ -18,7 +18,7 @@ namespace CommonLib
   {
     std::cout << "\033[34m" << std::string(60, '*')                       << std::endl;
     std::cout << "Author          : hdm"                        << std::endl;
-    std::cout << "Package link    : https://github.com/YJZLuckyBoy/liorf" << std::endl;
+    std::cout << "Package link    : https://github.com/bbguhdm/FeiHu_Sentry_2025.git" << std::endl;
     std::cout << std::string(60, '*') << "\033[0m"                        << std::endl;
   }
 

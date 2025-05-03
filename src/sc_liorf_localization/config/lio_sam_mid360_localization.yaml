@@ -23,8 +23,8 @@
     poseCovThreshold: 25.0                       # m^2, threshold for using GPS data
 
     # Export settings
-    savePCD: true                               # https://github.com/TixiaoShan/LIO-SAM/issues/3
-    savePCDDirectory: "/home/hdm/RMUL/"        # in your home folder, starts and ends with "/". Warning: the code deletes "LOAM" folder then recreates it. See "mapOptimization" for implementation
+    savePCD: false                               # https://github.com/TixiaoShan/LIO-SAM/issues/3
+    savePCDDirectory: "/home/hdm/FeiHu_Sentry_2025/src/sc_liorf_localization/slam_data/"        # in your home folder, starts and ends with "/". Warning: the code deletes "LOAM" folder then recreates it. See "mapOptimization" for implementation
 
     # Sensor Settings
     sensor: livox                               # lidar sensor type, either 'velodyne', 'ouster' or 'livox'

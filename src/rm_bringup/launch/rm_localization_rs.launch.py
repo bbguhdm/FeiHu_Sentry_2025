@@ -32,18 +32,18 @@ def generate_launch_description():
 
     lio_config_declare = DeclareLaunchArgument(
         'lio_config_params_file',
-        default_value='lio_sam_mid360_RM',
+        default_value='lio_sam_mid360_localization',
         description='FPath to the ROS2 parameters file to use.')
 
     bringup_cmd_group = GroupAction([
 
-        Node(
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            arguments='0.0 0.0 0.0 0.0 0.0 0.0 map odom'.split(' '),
-            parameters=[sc_liorf_localization_parameter_file],
-            output='screen'
-        ),
+        # Node(
+        #     package='tf2_ros',
+        #     executable='static_transform_publisher',
+        #     arguments='0.0 0.0 0.0 0.0 0.0 0.0 map odom'.split(' '),
+        #     parameters=[sc_liorf_localization_parameter_file],
+        #     output='screen'
+        # ),
         Node(
             package='imu_complementary_filter',
             executable='complementary_filter_node',
@@ -130,12 +130,12 @@ def generate_launch_description():
             parameters=[segmentation_params_file],
             output='screen'
         ),
-        # IncludeLaunchDescription(
-        #     PythonLaunchDescriptionSource(os.path.join(nav_launch_dir,'bring_launch.py')),
-        #     launch_arguments = {
-        #         'map': nav2_map_file,
-        #         'params_file': nav2_params_file_dir}.items()
-        # )
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(os.path.join(nav_launch_dir,'bring_launch.py')),
+            launch_arguments = {
+                'map': nav2_map_file,
+                'params_file': nav2_params_file_dir}.items()
+        )
     ])
 
     # Create the launch description and populate

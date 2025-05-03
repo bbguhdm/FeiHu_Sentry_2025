@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/hdm/Workspace/orbbec_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/hdm/Workspace/FeiHu_Sentry_2025/install/sc_liorf_localization/local/lib/python3.10/dist-packages",
+        "/home/hdm/Workspace/FeiHu_Sentry_2025/install/robot_navigation2/local/lib/python3.10/dist-packages",
+        "/home/hdm/Workspace/FeiHu_Sentry_2025/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/hdm/Workspace/orbbec_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/hdm/Workspace/FeiHu_Sentry_2025/install/sc_liorf_localization/local/lib/python3.10/dist-packages",
+        "/home/hdm/Workspace/FeiHu_Sentry_2025/install/robot_navigation2/local/lib/python3.10/dist-packages",
+        "/home/hdm/Workspace/FeiHu_Sentry_2025/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

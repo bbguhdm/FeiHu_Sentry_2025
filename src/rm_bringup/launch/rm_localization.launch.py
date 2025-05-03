@@ -32,7 +32,7 @@ def generate_launch_description():
 
     lio_config_declare = DeclareLaunchArgument(
         'lio_config_params_file',
-        default_value='lio_sam_mid360_RM',
+        default_value='lio_sam_mid360_localization',
         description='FPath to the ROS2 parameters file to use.')
 
     bringup_cmd_group = GroupAction([
@@ -41,10 +41,25 @@ def generate_launch_description():
         #     package='tf2_ros',
         #     executable='static_transform_publisher',
         #     arguments='0.0 0.0 0.0 0.0 0.0 0.0 map odom'.split(' '),
-        #     parameters=[parameter_file],
+        #     parameters=[sc_liorf_localization_parameter_file],
         #     output='screen'
         # ),
-
+        Node(
+            package='imu_complementary_filter',
+            executable='complementary_filter_node',
+            name='complementary_filter_gain_node',
+            output='screen',
+            parameters=[
+                {'do_bias_estimation': True},
+                {'do_adaptive_gain': True},
+                {'use_mag': False},
+                {'gain_acc': 0.01},
+                {'gain_mag': 0.01},
+            ],
+            remappings=[
+                ('/imu/data_raw', '/livox/imu'),
+            ]
+        ),
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',

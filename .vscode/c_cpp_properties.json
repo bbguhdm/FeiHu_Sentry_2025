@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/hdm/Workspace/orbbec_ws/install/orbbec_camera/include/**",
+        "/home/hdm/Workspace/orbbec_ws/install/orbbec_camera_msgs/include/**",
+        "/home/hdm/Workspace/FeiHu_Sentry_2025/install/sc_liorf_localization/include/**",
+        "/home/hdm/Workspace/FeiHu_Sentry_2025/install/rm_bringup/include/**",
+        "/home/hdm/Workspace/FeiHu_Sentry_2025/install/pointcloud_to_laserscan/include/**",
+        "/home/hdm/Workspace/FeiHu_Sentry_2025/install/livox_ros_driver2/include/**",
+        "/home/hdm/Workspace/FeiHu_Sentry_2025/install/linefit_ground_segmentation/include/**",
+        "/home/hdm/Workspace/FeiHu_Sentry_2025/install/imu_complementary_filter/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/hdm/FeiHu_Sentry_2025/src/imu_complementary_filter/include/**",
+        "/home/hdm/FeiHu_Sentry_2025/src/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/**",
+        "/home/hdm/FeiHu_Sentry_2025/src/pointcloud_to_laserscan/include/**",
+        "/home/hdm/FeiHu_Sentry_2025/src/sc_liorf_localization/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
