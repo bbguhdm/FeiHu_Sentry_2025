@@ -6,7 +6,7 @@
 ### 硬件设备
 1.  Mini Pc:13代 intel酷睿i9-13900H BQM6
    
-2.  传感器：Livox-Mid360激光雷达
+2.  传感器：Livox-Mid360激光雷达(倒装)
 
 ### 开发环境
 Ubuntu22.04 ROS2 Humble
