@@ -39,7 +39,7 @@ sudo apt install ros-humble-nav2-*
 克隆仓库到本地：
 
 ```
-git clone https://github.com/bbguhdm/feihu.git`
+git clone https://github.com/bbguhdm/feihu.git
 ```
 
 编译
